@@ -31,7 +31,7 @@ body {
 /* CAROUSEL */
 .carousel-item {
   height: 60vh; /* responsivo */
-  position: relative; /* corrigido (tava "r") */
+  position: relative; 
 }
 
 .carousel-item img {
