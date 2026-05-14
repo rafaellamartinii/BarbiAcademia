@@ -1,0 +1,62 @@
+/* RESPONSIVO */
+@media (min-width: 768px) {
+  .hero-subtitle {
+    font-size: 18px;
+  }
+
+  .hero-title {
+    font-size: 50px;
+  }
+
+  .hero-description {
+    font-size: 18px;
+  }
+
+  .btn-hero {
+    padding: 14px 35px;
+    font-size: 15px;
+  }
+
+  .about-title {
+    font-size: 42px;
+  }
+
+  .opening-hours-title {
+    font-size: 38px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 42px;
+  }
+
+  .carousel-caption p {
+    font-size: 18px;
+  }
+
+  .btn-custom {
+    width: auto;
+    padding: 10px 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel-item {
+    height: 500px;
+  }
+
+  .hero-title {
+    font-size: 60px;
+  }
+
+  .about-title {
+    font-size: 48px;
+  }
+
+  .opening-hours-title {
+    font-size: 42px;
+  }
+
+  .hero-buttons {
+    gap: 20px;
+  }
+}
