@@ -413,11 +413,82 @@ footer {
   background: #000;
   color: #fff;
   padding: 30px 15px;
-  text-align: center;
-  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer-brand-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  max-height: 60px;
+  width: auto;
+  display: block;
+}
+
+.footer-info {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.footer-info p {
+  margin: 0;
+  color: #fff;
+}
+
+.footer-brand {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.footer-info a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+.footer-info a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #e74c3c;
+  transform: translateY(-2px);
 }
 
 /* RESPONSIVO */
+@media (max-width: 767.98px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 @media (min-width: 768px) {
   .hero-subtitle {
     font-size: 18px;
@@ -545,16 +616,41 @@ footer {
   z-index: 10;
 }
 
+
+.pricing-carousel .pricing-card {
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.pricing-carousel .carousel-indicators {
+  margin-bottom: 30px;
+}
+
+.pricing-carousel .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #dcdcdc;
+}
+
+.pricing-carousel .carousel-indicators .active {
+  background-color: #e74c3c;
+}
+
 .pricing-image {
   width: 100%;
-  height: 200px;
+  height: 400px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
 }
 
 .pricing-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 

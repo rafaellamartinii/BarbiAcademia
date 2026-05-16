@@ -16,6 +16,7 @@
     />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -194,88 +195,86 @@
         <h2 class="pricing-title">Escolha o Plano Ideal para Você</h2>
       </div>
 
-      <div class="row g-4">
-        <!-- Plano 1 -->
-        <div class="col-lg-4" data-aos="fade-up">
-          <div class="pricing-card">
-            <div class="pricing-image">
-              <img src="plano1.jpg" alt="Plano 1" class="w-100" />
-            </div>
-            <div class="pricing-content">
-              <h3 class="pricing-plan-title">Plano 1</h3>
-              <p class="pricing-description">Descrição do plano 1</p>
-              <div class="pricing-price">
-                <span class="price-value">R$</span>
-                <span class="price-amount">0</span>
-                <span class="price-period">/mês</span>
+      <div id="planCarousel" class="carousel slide pricing-carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="pricing-card pricing-card-featured">
+              <div class="pricing-image">
+                <img src="PromocaoAnual.jpeg" alt="Promoção Anual" class="w-100" />
               </div>
-              <ul class="pricing-features">
-                <li><i class="bi bi-check-circle-fill"></i> Benefício 1</li>
-                <li><i class="bi bi-check-circle-fill"></i> Benefício 2</li>
-                <li><i class="bi bi-check-circle-fill"></i> Benefício 3</li>
-              </ul>
-              <a href="https://wa.me/5547991034791" target="_blank" class="btn btn-pricing">
-                Contratar Agora
-              </a>
+              <div class="pricing-content">
+                <h3 class="pricing-plan-title">Plano Promoção Anual</h3>
+                <p class="pricing-description">Acesso completo à academia com condições especiais para contrato anual.</p>
+                <div class="pricing-price">
+                  <span class="price-value">R$</span>
+                  <span class="price-amount">119</span>
+                  <span class="price-period">/mês</span>
+                </div>
+                <ul class="pricing-features">
+                  <li><i class="bi bi-check-circle-fill"></i> Aulas ilimitadas</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Avaliação física grátis</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Acesso premium</li>
+                </ul>
+                <a href="https://wa.me/5547991034791" target="_blank" class="btn btn-pricing btn-pricing-featured">
+                  Contratar Agora
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="pricing-card">
+              <div class="pricing-image">
+                <img src="ClubeBarbi.jpeg" alt="Clube Barbi" class="w-100" />
+              </div>
+              <div class="pricing-content">
+                <h3 class="pricing-plan-title">Clube Barbi</h3>
+                <div class="pricing-price">
+                  <span class="price-value">R$</span>
+                  <span class="price-amount">109</span>
+                  <span class="price-period">/mês</span>
+                </div>
+                <ul class="pricing-features">
+        
+                </ul>
+                <a href="https://wa.me/5547991034791" target="_blank" class="btn btn-pricing">
+                  Contratar Agora
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="pricing-card">
+              <div class="pricing-image">
+                <img src="IndicacaoAmigo.jpeg" alt="Indicação Amigo" class="w-100" />
+              </div>
+              <div class="pricing-content">
+                <h3 class="pricing-plan-title">Indicação Amigo</h3>
+                <p class="pricing-description">Plano procional para quem indica um amigo e garante benefícios excluvos.</p>
+                <div class="pricing-price">
+                  <span class="price-value">R$</span>
+                  <span class="price-amount">99</span>
+                  <span class="price-period">/mês</span>
+                </div>
+                <ul class="pricing-features">
+                </ul>
+                <a href="https://wa.me/5547991034791" target="_blank" class="btn btn-pricing">
+                  Contratar Agora
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Plano 2 -->
-        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="pricing-card pricing-card-featured">
-            <div class="pricing-badge">Mais Popular</div>
-            <div class="pricing-image">
-              <img src="plano2.jpg" alt="Plano 2" class="w-100" />
-            </div>
-            <div class="pricing-content">
-              <h3 class="pricing-plan-title">Plano 2</h3>
-              <p class="pricing-description">Descrição do plano 2</p>
-              <div class="pricing-price">
-                <span class="price-value">R$</span>
-                <span class="price-amount">0</span>
-                <span class="price-period">/mês</span>
-              </div>
-              <ul class="pricing-features">
-                <li><i class="bi bi-check-circle-fill"></i> Benefício 1</li>
-                <li><i class="bi bi-check-circle-fill"></i> Benefício 2</li>
-                <li><i class="bi bi-check-circle-fill"></i> Benefício 3</li>
-                <li><i class="bi bi-check-circle-fill"></i> Benefício 4</li>
-              </ul>
-              <a href="https://wa.me/5547991034791" target="_blank" class="btn btn-pricing btn-pricing-featured">
-                Contratar Agora
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Plano 3 -->
-        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="pricing-card">
-            <div class="pricing-image">
-              <img src="plano3.jpg" alt="Plano 3" class="w-100" />
-            </div>
-            <div class="pricing-content">
-              <h3 class="pricing-plan-title">Plano 3</h3>
-              <p class="pricing-description">Descrição do plano 3</p>
-              <div class="pricing-price">
-                <span class="price-value">R$</span>
-                <span class="price-amount">0</span>
-                <span class="price-period">/mês</span>
-              </div>
-              <ul class="pricing-features">
-                <li><i class="bi bi-check-circle-fill"></i> Benefício 1</li>
-                <li><i class="bi bi-check-circle-fill"></i> Benefício 2</li>
-                <li><i class="bi bi-check-circle-fill"></i> Benefício 3</li>
-                <li><i class="bi bi-check-circle-fill"></i> Benefício 4</li>
-                <li><i class="bi bi-check-circle-fill"></i> Benefício 5</li>
-              </ul>
-              <a href="https://wa.me/5547991034791" target="_blank" class="btn btn-pricing">
-                Contratar Agora
-              </a>
-            </div>
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#planCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#planCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
       </div>
     </div>
 
@@ -303,8 +302,30 @@
     </div>
 
     <div id="contact"></div>
-    <footer id="footer">
-      <p>Academia Barbi</p>
+    <footer id="footer" class="footer">
+      <div class="container footer-content">
+        <div class="footer-brand-wrapper">
+          <a href="#home" class="footer-logo-link">
+            <img src="Logo minimalista da Barbi Academia.png" alt="Logo minimalista da Barbi Academia" class="footer-logo" />
+          </a>
+          <div class="footer-info">
+          
+            <p>Endereço: R. 25 de Julho, 530 - Vila Nova, Jaraguá do Sul - SC, 89259-000</p>
+            <p>WhatsApp: <a href="https://wa.me/5547991034791" target="_blank" rel="noreferrer noopener">(47) 99103-4791</a></p>
+          </div>
+        </div>
+        <div class="footer-social">
+          <a href="https://wa.me/5547991034791" target="_blank" rel="noreferrer noopener" aria-label="WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <a href="https://www.instagram.com/barbiacademia" target="_blank" rel="noreferrer noopener" aria-label="Instagram">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/barbiacademia" target="_blank" rel="noreferrer noopener" aria-label="Facebook">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </div>
+      </div>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
