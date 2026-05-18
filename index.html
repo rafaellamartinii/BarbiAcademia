@@ -16,8 +16,12 @@
     />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="hero.css" />
+    <link rel="stylesheet" href="sections.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="responsive.css" />
   </head>
 
   <body>
@@ -189,92 +193,71 @@
       </div>
     </div>
 
-    <div class="container section" id="pricing">
-      <div class="text-center mb-5">
-        <span class="pricing-subtitle">Nossos Planos</span>
-        <h2 class="pricing-title">Escolha o Plano Ideal para Você</h2>
-      </div>
+    <div id="pricing" class="pricing-section">
+      <div class="container">
+        <div class="pricing-header text-center">
+          <span class="pricing-subtitle">Planos e pacotes </span>
+          <h2 class="pricing-title">Escolha o Plano Ideal para Você</h2>
+          <p class="pricing-description">Escolha o plano que melhor se adapta às suas necessidades e objetivos.</p>
+      
+        </div>
 
-      <div id="planCarousel" class="carousel slide pricing-carousel" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-4">
+            <div class="pricing-card">
+              <div class="pricing-card-image">
+                <img src="plano1.jpeg" alt="Silver Plan" />
+                <div class="pricing-card-image-overlay">
+                </div>
+              </div>
+              <ul class="pricing-features">
+                <li><i class="bi bi-chevron-right"></i> Matrícula e avaliação isentas</li>
+                <li><i class="bi bi-chevron-right"></i> Acesso livre todos os dias</li>
+                <li><i class="bi bi-chevron-right"></i> Life Time Support</li>
+                <li><i class="bi bi-chevron-right"></i> Limited Time Offer</li>
+              </ul>
+              <a href="https://wa.me/5547991034791" class="btn btn-pricing">Contratar plano</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
             <div class="pricing-card pricing-card-featured">
-              <div class="pricing-image">
-                <img src="PromocaoAnual.jpeg" alt="Promoção Anual" class="w-100" />
-              </div>
-              <div class="pricing-content">
-                <h3 class="pricing-plan-title">Plano Promoção Anual</h3>
-                <p class="pricing-description">Acesso completo à academia com condições especiais para contrato anual.</p>
-                <div class="pricing-price">
-                  <span class="price-value">R$</span>
-                  <span class="price-amount">119</span>
-                  <span class="price-period">/mês</span>
+              <div class="pricing-badge">Most Popular</div>
+              <div class="pricing-card-image">
+                <img src="plano2.jpeg" alt="Gold Plan" />
+                <div class="pricing-card-image-overlay">
+                  <h3>18 meses</h3>
                 </div>
-                <ul class="pricing-features">
-                  <li><i class="bi bi-check-circle-fill"></i> Aulas ilimitadas</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Avaliação física grátis</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Acesso premium</li>
-                </ul>
-                <a href="https://wa.me/5547991034791" target="_blank" class="btn btn-pricing btn-pricing-featured">
-                  Contratar Agora
-                </a>
               </div>
+              <ul class="pricing-features">
+                <li><i class="bi bi-chevron-right"></i>Matrícula e avaliação isentas</li>
+                <li><i class="bi bi-chevron-right"></i> Acesso livre todos os dias</li>
+                <li><i class="bi bi-chevron-right"></i>Pausa de 60 dias</li>
+                <li><i class="bi bi-chevron-right"></i>Flexível convidado</li>
+              </ul>
+              <a href="https://wa.me/5547991034791" class="btn btn-pricing btn-pricing-featured">Contratar Plano</a>
             </div>
           </div>
 
-          <div class="carousel-item">
+          <div class="col-lg-4">
             <div class="pricing-card">
-              <div class="pricing-image">
-                <img src="ClubeBarbi.jpeg" alt="Clube Barbi" class="w-100" />
-              </div>
-              <div class="pricing-content">
-                <h3 class="pricing-plan-title">Clube Barbi</h3>
-                <div class="pricing-price">
-                  <span class="price-value">R$</span>
-                  <span class="price-amount">109</span>
-                  <span class="price-period">/mês</span>
+              <div class="pricing-card-image">
+                <img src="plano3.jpeg" alt="Diamond Plan" />
+                <div class="pricing-card-image-overlay">
+                  <h3>DIAMOND PLAN</h3>
+                  <p>Lorem ipsum dolor</p>
                 </div>
-                <ul class="pricing-features">
-        
-                </ul>
-                <a href="https://wa.me/5547991034791" target="_blank" class="btn btn-pricing">
-                  Contratar Agora
-                </a>
               </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="pricing-card">
-              <div class="pricing-image">
-                <img src="IndicacaoAmigo.jpeg" alt="Indicação Amigo" class="w-100" />
-              </div>
-              <div class="pricing-content">
-                <h3 class="pricing-plan-title">Indicação Amigo</h3>
-                <p class="pricing-description">Plano procional para quem indica um amigo e garante benefícios excluvos.</p>
-                <div class="pricing-price">
-                  <span class="price-value">R$</span>
-                  <span class="price-amount">99</span>
-                  <span class="price-period">/mês</span>
-                </div>
-                <ul class="pricing-features">
-                </ul>
-                <a href="https://wa.me/5547991034791" target="_blank" class="btn btn-pricing">
-                  Contratar Agora
-                </a>
-              </div>
+              <ul class="pricing-features">
+                <li><i class="bi bi-chevron-right"></i> Matrícula e avaliação isentas</li>
+                <li><i class="bi bi-chevron-right"></i> Acesso livre todos os dias</li>
+                <li><i class="bi bi-chevron-right"></i> Life Time Support</li>
+                <li><i class="bi bi-chevron-right"></i> Limited Time Offer</li>
+              </ul>
+              <a href="https://wa.me/5547991034791" class="btn btn-pricing">Contratar plano</a>
             </div>
           </div>
         </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#planCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#planCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Próximo</span>
-        </button>
       </div>
     </div>
 
@@ -285,7 +268,7 @@
         <div class="schedule">
           <div class="schedule-item">
             <span class="day">Segunda a Sexta</span>
-            <span class="time">5:00 - 23:59</span>
+            <span class="time">5:00 - 00:00</span>
           </div>
 
           <div class="schedule-item">
@@ -301,7 +284,41 @@
       </div>
     </div>
 
-    <div id="contact"></div>
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="about-subtitle">Contato</span>
+          <h2 class="about-title">Fale Conosco</h2>
+          <p class="about-description">Preencha o formulário abaixo e nossa equipe entrará em contato o mais rápido possível.</p>
+        </div>
+
+        <div class="contact-card mx-auto p-4 p-lg-5">
+          <form>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Nome" required />
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Email" required />
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Assunto" required />
+              </div>
+              <div class="col-md-6">
+                <input type="tel" class="form-control" placeholder="Telefone" />
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" rows="5" placeholder="Sua Mensagem" required></textarea>
+              </div>
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-about">Enviar Mensagem</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <footer id="footer" class="footer">
       <div class="container footer-content">
         <div class="footer-brand-wrapper">
@@ -309,11 +326,26 @@
             <img src="Logo minimalista da Barbi Academia.png" alt="Logo minimalista da Barbi Academia" class="footer-logo" />
           </a>
           <div class="footer-info">
-          
-            <p>Endereço: R. 25 de Julho, 530 - Vila Nova, Jaraguá do Sul - SC, 89259-000</p>
+            <p>Endereço:</p>
+            <p>R. 25 de Julho, 530 - Vila Nova</p>
+            <p>Jaraguá do Sul - SC, 89259-000</p>
             <p>WhatsApp: <a href="https://wa.me/5547991034791" target="_blank" rel="noreferrer noopener">(47) 99103-4791</a></p>
           </div>
         </div>
+
+        <div class="footer-sponsors" aria-hidden="false">
+          <!-- Patrocinadores enviados pelo usuário (coloque os PNGs em sponsors/) -->
+          <a href="#" class="sponsor-link" aria-label="Patrocinador Heavy">
+            <img src="sponsors/heavy.png" alt="Heavy Nutrition" class="sponsor-logo" />
+          </a>
+          <a href="#" class="sponsor-link" aria-label="Patrocinador Exclusivita">
+            <img src="sponsors/exclusivita.png" alt="Exclusivita" class="sponsor-logo sponsor-logo--large" />
+          </a>
+          <a href="#" class="sponsor-link" aria-label="Patrocinador Anabolic Food">
+            <img src="sponsors/anabolic.png" alt="Anabolic Food" class="sponsor-logo sponsor-logo--large" />
+          </a>
+        </div>
+
         <div class="footer-social">
           <a href="https://wa.me/5547991034791" target="_blank" rel="noreferrer noopener" aria-label="WhatsApp">
             <i class="bi bi-whatsapp"></i>
