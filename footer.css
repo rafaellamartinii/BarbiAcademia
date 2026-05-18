@@ -3,6 +3,7 @@ footer {
   background: #000;
   color: #fff;
   padding: 30px 15px;
+<<<<<<< HEAD
   text-align: left;
   font-size: 14px;
 }
@@ -112,3 +113,8 @@ footer {
     max-height: 36px;
   }
 }
+=======
+  text-align: center;
+  font-size: 14px;
+}
+>>>>>>> 7c03e999cf3f49f065d9fa85af0a89d421a36288

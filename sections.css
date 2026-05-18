@@ -4,7 +4,11 @@
 }
 
 #about {
+<<<<<<< HEAD
   background: #f7f2eb;
+=======
+  background: #f8f8f8;
+>>>>>>> 7c03e999cf3f49f065d9fa85af0a89d421a36288
 }
 
 /* ABOUT SECTION */
@@ -82,6 +86,7 @@
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 /* CONTACT FORM SECTION */
 .contact-section {
   background: #fff;
@@ -122,6 +127,8 @@
   }
 }
 
+=======
+>>>>>>> 7c03e999cf3f49f065d9fa85af0a89d421a36288
 .opening-hours-title {
   color: #fff;
   font-size: 32px;
@@ -176,6 +183,7 @@
 }
 
 #pricing {
+<<<<<<< HEAD
   background: #f7f2eb;
   color: #111;
 }
@@ -187,6 +195,22 @@
 
 .pricing-section {
   padding: 80px 15px;
+=======
+  background: #1a1a1a;
+  color: #fff;
+}
+
+#pricing .about-subtitle {
+  color: #fff;
+}
+
+#pricing .about-title {
+  color: #fff;
+}
+
+.pricing-section {
+  padding: 60px 15px;
+>>>>>>> 7c03e999cf3f49f065d9fa85af0a89d421a36288
   text-align: center;
 }
 
@@ -195,6 +219,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+<<<<<<< HEAD
 
 .pricing-header {
   max-width: 720px;
@@ -437,3 +462,5 @@
     height: 140px;
   }
 }
+=======
+>>>>>>> 7c03e999cf3f49f065d9fa85af0a89d421a36288
