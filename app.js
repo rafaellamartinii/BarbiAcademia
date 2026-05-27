@@ -1,6 +1,6 @@
 const WHATSAPP_NUMBER = "5547991034791";
 
-const contactForm = document.querySelector("form");
+const contactForm = document.querySelector("contact-form");
 
 if (contactForm) {
   contactForm.addEventListener("submit", function (e) {
@@ -14,7 +14,7 @@ if (contactForm) {
       `Olá! Gostaria de informações sobre a Academia Barbi.\n\n` +
         `*Nome:* ${name}\n` +
         `*Email:* ${email}\n` +
-        `*Mensagem:* ${message}`,
+        `*Mensagem:* ${message}`
     );
 
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappMessage}`;
