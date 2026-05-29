@@ -9,9 +9,13 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap"
       rel="stylesheet"
     />
 
@@ -32,7 +36,7 @@
       <div class="container">
         <a class="navbar-brand" href="#home">
           <img
-            src="Logo minimalista da Barbi Academia.png"
+            src="assets/Logo minimalista da Barbi Academia.png"
             alt="Barbi Academia"
           />
         </a>
@@ -89,7 +93,7 @@
 
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="Barbiacademia.interna.jpg" class="d-block w-100" />
+          <img src="assets/Barbiacademia.interna.jpg" class="d-block w-100" />
           <div class="carousel-caption hero-caption">
             <div class="hero-content">
               <span class="hero-subtitle">VENHA NOS CONHECER!</span>
@@ -120,7 +124,7 @@
         </div>
 
         <div class="carousel-item">
-          <img src="Fachada.webp" class="d-block w-100" />
+          <img src="assets/Fachada.webp" class="d-block w-100" />
           <div class="carousel-caption hero-caption">
             <div class="hero-content">
               <span class="hero-subtitle">VISITE-NOS</span>
@@ -184,7 +188,7 @@
         <div class="col-lg-6">
           <div class="card card-clean">
             <img
-              src=""
+              src="assets/Barbiacademia.interna.jpg"
               class="w-100"
               alt="Treino na Academia Barbi"
             />
@@ -193,74 +197,184 @@
       </div>
     </div>
 
-    <div id="pricing" class="pricing-section">
+    <section id="pricing" class="pricing-section">
       <div class="container">
         <div class="pricing-header text-center">
-          <span class="pricing-subtitle">Planos e pacotes </span>
-          <h2 class="pricing-title">Escolha o Plano Ideal para Você</h2>
-          <p class="pricing-description">Escolha o plano que melhor se adapta às suas necessidades e objetivos.</p>
-      
+          <span class="pricing-subtitle">Planos e pacotes</span>
+          <h2 class="pricing-title">Escolha o Plano Ideal para Voc&ecirc;</h2>
+          <p class="pricing-description">
+            Escolha o plano que melhor se adapta &agrave;s suas necessidades e
+            objetivos.
+          </p>
         </div>
 
-        <div class="row g-4 justify-content-center">
-          <div class="col-lg-4">
-            <div class="pricing-card">
+        <div class="pricing-grid">
+          <article class="pricing-card">
+            <div class="pricing-card-content">
               <div class="pricing-card-image">
-                <img src="plano1.jpeg" alt="Silver Plan" />
-                <div class="pricing-card-image-overlay">
-                  <h3>Mensal</h3>
+                <img src="assets/plano1.jpeg" alt="Plano Clube Barbi" />
+              </div>
+
+              <div class="pricing-price">
+                <span class="pricing-kicker">A partir de</span>
+                <div class="pricing-price-main">
+                  <span class="pricing-currency">R$</span>
+                  <span class="pricing-amount">109</span>
+                  <span class="pricing-cents">,00</span>
+                  <span class="pricing-period">/m&ecirc;s</span>
+                </div>
+                <p class="pricing-installments">9x de R$14,53</p>
+              </div>
+
+              <span class="pricing-promo"
+                >Promo&ccedil;&atilde;o por tempo limitado</span
+              >
+
+              <ul class="pricing-features">
+                <li>
+                  <i class="bi bi-check2"></i> Matr&iacute;cula e
+                  avalia&ccedil;&atilde;o isentas
+                </li>
+                <li><i class="bi bi-check2"></i> Acesso livre todos os dias</li>
+                <li><i class="bi bi-check2"></i> Life Time Support</li>
+                <li><i class="bi bi-check2"></i> Limited Time Offer</li>
+              </ul>
+
+              <a href="https://wa.me/5547991034791" class="btn btn-pricing"
+                >Quero esse plano</a
+              >
+            </div>
+          </article>
+
+          <article class="pricing-card pricing-card-featured">
+            <div class="pricing-badge">Mais escolhido</div>
+            <div class="pricing-card-content">
+              <div class="pricing-card-image">
+                <img src="assets/plano2.jpeg" alt="Plano Clube Barbi Plus" />
+              </div>
+
+              <div class="pricing-price">
+                <span class="pricing-kicker">A partir de</span>
+                <div class="pricing-price-main">
+                  <span class="pricing-currency">R$</span>
+                  <span class="pricing-amount">99</span>
+                  <span class="pricing-cents">,00</span>
+                  <span class="pricing-period">/m&ecirc;s</span>
+                </div>
+                <p class="pricing-installments">15x de R$11,90</p>
+              </div>
+
+              <span class="pricing-promo"
+                >Promo&ccedil;&atilde;o por tempo limitado</span
+              >
+
+              <ul class="pricing-features">
+                <li>
+                  <i class="bi bi-check2"></i> Matr&iacute;cula e
+                  avalia&ccedil;&atilde;o isentas
+                </li>
+                <li><i class="bi bi-check2"></i> Acesso livre todos os dias</li>
+                <li><i class="bi bi-check2"></i> Pausa de 60 dias</li>
+                <li><i class="bi bi-check2"></i> Flex&iacute;vel convidado</li>
+              </ul>
+
+              <a
+                href="https://wa.me/5547991034791"
+                class="btn btn-pricing btn-pricing-featured"
+                >Quero esse plano</a
+              >
+            </div>
+          </article>
+
+          <article class="pricing-card pricing-card-passport">
+            <div class="pricing-card-content">
+              <div class="pricing-card-image">
+                <img src="assets/plano3.jpeg" alt="Plano Passaporte" />
+              </div>
+
+              <div
+                class="passport-options"
+                aria-label="Opcoes do plano passaporte"
+              >
+                <button type="button" class="passport-option active">
+                  Anual
+                </button>
+                <button type="button" class="passport-option">Semestral</button>
+                <button type="button" class="passport-option">Mensal</button>
+              </div>
+
+              <div class="passport-prices">
+                <div>
+                  <p><span>R$</span>119<small>,00 /m&ecirc;s</small></p>
+                  <strong>ou R$1.428,00/ano</strong>
+                </div>
+                <div>
+                  <p><span>R$</span>149<small>,00 /m&ecirc;s</small></p>
+                  <strong>ou R$894,00/sem</strong>
+                </div>
+                <div>
+                  <p><span>R$</span>179<small>,00 /m&ecirc;s</small></p>
+                  <strong>Avulso</strong>
                 </div>
               </div>
+
               <ul class="pricing-features">
-                <li><i class="bi bi-chevron-right"></i> Matrícula e avaliação isentas</li>
-                <li><i class="bi bi-chevron-right"></i> Acesso livre todos os dias</li>
-                <li><i class="bi bi-chevron-right"></i> Life Time Support</li>
-                <li><i class="bi bi-chevron-right"></i> Limited Time Offer</li>
+                <li>
+                  <i class="bi bi-check2"></i> Matr&iacute;cula e
+                  avalia&ccedil;&atilde;o isentas
+                </li>
+                <li><i class="bi bi-check2"></i> Acesso livre todos os dias</li>
+                <li><i class="bi bi-check2"></i> Life Time Support</li>
+                <li><i class="bi bi-check2"></i> Limited Time Offer</li>
               </ul>
-              <a href="https://wa.me/5547991034791" class="btn btn-pricing">Contratar plano</a>
+
+              <a href="https://wa.me/5547991034791" class="btn btn-pricing"
+                >Quero esse plano</a
+              >
+            </div>
+          </article>
+        </div>
+
+        <div class="pricing-benefits" aria-label="Beneficios da Barbi Academia">
+          <div class="pricing-benefit">
+            <i class="bi bi-shield-check"></i>
+            <div>
+              <strong>Ambiente seguro</strong>
+              <span>Treine com tranquilidade e total seguran&ccedil;a.</span>
             </div>
           </div>
-
-          <div class="col-lg-4">
-            <div class="pricing-card pricing-card-featured">
-              <div class="pricing-badge">Mais Popular</div>
-              <div class="pricing-card-image">
-                <img src="plano2.jpeg" alt="Gold Plan" />
-                <div class="pricing-card-image-overlay">
-                  <h3>18 meses</h3>
-                </div>
-              </div>
-              <ul class="pricing-features">
-                <li><i class="bi bi-chevron-right"></i>Matrícula e avaliação isentas</li>
-                <li><i class="bi bi-chevron-right"></i> Acesso livre todos os dias</li>
-                <li><i class="bi bi-chevron-right"></i>Pausa de 60 dias</li>
-                <li><i class="bi bi-chevron-right"></i>Flexível convidado</li>
-              </ul>
-              <a href="https://wa.me/5547991034791" class="btn btn-pricing btn-pricing-featured">Contratar Plano</a>
+          <div class="pricing-benefit">
+            <i class="bi bi-calendar3"></i>
+            <div>
+              <strong>Flexibilidade</strong>
+              <span
+                >Planos que se adaptam &agrave; sua rotina e objetivos.</span
+              >
             </div>
           </div>
-
-          <div class="col-lg-4">
-            <div class="pricing-card">
-              <div class="pricing-card-image">
-                <img src="plano3.jpeg" alt="Diamond Plan" />
-                <div class="pricing-card-image-overlay">
-                  <h3>12 meses</h3>
-                  
-                </div>
-              </div>
-              <ul class="pricing-features">
-                <li><i class="bi bi-chevron-right"></i> Matrícula e avaliação isentas</li>
-                <li><i class="bi bi-chevron-right"></i> Acesso livre todos os dias</li>
-                <li><i class="bi bi-chevron-right"></i> Life Time Support</li>
-                <li><i class="bi bi-chevron-right"></i> Limited Time Offer</li>
-              </ul>
-              <a href="https://wa.me/5547991034791" class="btn btn-pricing">Contratar plano</a>
+          <div class="pricing-benefit">
+            <i class="bi bi-people"></i>
+            <div>
+              <strong>Comunidade</strong>
+              <span
+                >Fa&ccedil;a parte de uma comunidade que te inspira e
+                motiva.</span
+              >
+            </div>
+          </div>
+          <div class="pricing-benefit">
+            <i class="bi bi-star"></i>
+            <div>
+              <strong>Resultados reais</strong>
+              <span
+                >M&eacute;todo comprovado para transformar seu corpo e sua
+                mente.</span
+              >
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <div id="opening-hours" class="opening-hours-section">
       <div class="opening-hours-container">
@@ -290,29 +404,54 @@
         <div class="section-header text-center mb-5">
           <span class="about-subtitle">Contato</span>
           <h2 class="about-title">Fale Conosco</h2>
-          <p class="about-description">Preencha o formulário abaixo e nossa equipe entrará em contato o mais rápido possível.</p>
+          <p class="about-description">
+            Preencha o formulário abaixo e nossa equipe entrará em contato o
+            mais rápido possível.
+          </p>
         </div>
 
         <div class="contact-card mx-auto p-4 p-lg-5">
           <form>
             <div class="row g-3">
               <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Nome" required />
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nome"
+                  required
+                />
               </div>
               <div class="col-md-6">
-                <input type="email" class="form-control" placeholder="Email" required />
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
               </div>
               <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Assunto" required />
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Assunto"
+                  required
+                />
               </div>
               <div class="col-md-6">
                 <input type="tel" class="form-control" placeholder="Telefone" />
               </div>
               <div class="col-12">
-                <textarea class="form-control" rows="5" placeholder="Sua Mensagem" required></textarea>
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  placeholder="Sua Mensagem"
+                  required
+                ></textarea>
               </div>
               <div class="col-12 text-center">
-                <button type="submit" class="btn btn-about">Enviar Mensagem</button>
+                <button type="submit" class="btn btn-about">
+                  Enviar Mensagem
+                </button>
               </div>
             </div>
           </form>
@@ -324,37 +463,84 @@
       <div class="container footer-content">
         <div class="footer-brand-wrapper">
           <a href="#home" class="footer-logo-link">
-            <img src="Logo minimalista da Barbi Academia.png" alt="Logo minimalista da Barbi Academia" class="footer-logo" />
+            <img
+              src="Logo minimalista da Barbi Academia.png"
+              alt="Logo minimalista da Barbi Academia"
+              class="footer-logo"
+            />
           </a>
           <div class="footer-info">
             <p>Endereço:</p>
             <p>R. 25 de Julho, 530 - Vila Nova</p>
             <p>Jaraguá do Sul - SC, 89259-000</p>
-            <p>WhatsApp: <a href="https://wa.me/5547991034791" target="_blank" rel="noreferrer noopener">(47) 99103-4791</a></p>
+            <p>
+              WhatsApp:
+              <a
+                href="https://wa.me/5547991034791"
+                target="_blank"
+                rel="noreferrer noopener"
+                >(47) 99103-4791</a
+              >
+            </p>
           </div>
         </div>
 
         <div class="footer-sponsors" aria-hidden="false">
           <!-- Patrocinadores enviados pelo usuário (coloque os PNGs em sponsors/) -->
           <a href="#" class="sponsor-link" aria-label="Patrocinador Heavy">
-            <img src="sponsors/heavy.png" alt="Heavy Nutrition" class="sponsor-logo" />
+            <img
+              src="sponsors/heavy.png"
+              alt="Heavy Nutrition"
+              class="sponsor-logo"
+            />
           </a>
-          <a href="#" class="sponsor-link" aria-label="Patrocinador Exclusivita">
-            <img src="sponsors/exclusivita.png" alt="Exclusivita" class="sponsor-logo sponsor-logo--large" />
+          <a
+            href="#"
+            class="sponsor-link"
+            aria-label="Patrocinador Exclusivita"
+          >
+            <img
+              src="sponsors/exclusivita.png"
+              alt="Exclusivita"
+              class="sponsor-logo"
+            />
           </a>
-          <a href="#" class="sponsor-link" aria-label="Patrocinador Anabolic Food">
-            <img src="sponsors/anabolic.png" alt="Anabolic Food" class="sponsor-logo sponsor-logo--large" />
+          <a
+            href="#"
+            class="sponsor-link"
+            aria-label="Patrocinador Anabolic Food"
+          >
+            <img
+              src="sponsors/anabolic.png"
+              alt="Anabolic Food"
+              class="sponsor-logo"
+            />
           </a>
         </div>
 
         <div class="footer-social">
-          <a href="https://wa.me/5547991034791" target="_blank" rel="noreferrer noopener" aria-label="WhatsApp">
+          <a
+            href="https://wa.me/5547991034791"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="WhatsApp"
+          >
             <i class="bi bi-whatsapp"></i>
           </a>
-          <a href="https://www.instagram.com/barbiacademia" target="_blank" rel="noreferrer noopener" aria-label="Instagram">
+          <a
+            href="https://www.instagram.com/barbiacademia"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Instagram"
+          >
             <i class="bi bi-instagram"></i>
           </a>
-          <a href="https://www.facebook.com/barbiacademia" target="_blank" rel="noreferrer noopener" aria-label="Facebook">
+          <a
+            href="https://www.facebook.com/barbiacademia"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Facebook"
+          >
             <i class="bi bi-facebook"></i>
           </a>
         </div>
@@ -406,4 +592,3 @@
     </script>
   </body>
 </html>
-
